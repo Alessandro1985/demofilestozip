@@ -2,7 +2,7 @@
 
 1) Run the application: 
    You can run: "$ docker build . --tag demofilestozip" (if you use Docker) or open a command line (in project directory) and type: "gradlew bootRun"
-2) Use the follow curl request in order to send a list of files:
+2) Use the follow curl request (setting you path to the files) in order to send a list of files:
    curl --location --request POST 'http://localhost:8080/files/addToZip' \
          --form 'file1=@"/C:/Users/user/Desktop/file.txt"' \
          --form 'file2=@"/C:/Users/user/Desktop/file.txt"' \
