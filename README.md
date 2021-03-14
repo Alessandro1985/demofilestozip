@@ -1,4 +1,4 @@
-# filestozipdemo
+# demofilestozip
 
 1) Run the application: 
    You can run: "$ docker build . --tag demofilestozip" (if you use Docker) or open a command line (in project directory) and type: "gradlew bootRun"
